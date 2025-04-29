@@ -13,3 +13,13 @@ section{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     margin-left: 64px;
 }
+section .info-livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+  }
+  section .info-livro > * {
+    margin: 8px;
+  }
