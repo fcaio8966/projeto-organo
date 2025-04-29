@@ -1,0 +1,15 @@
+section{
+    width: 262px;
+    min-height: 382px;
+    margin: 8px;
+    display:flex;
+    flex-direction: colum;
+    align-items: center;
+    background-color:#FFFFFF;
+    position:relative;
+    overflow:hidden;
+    padding-top: 16px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-left: 64px;
+}
