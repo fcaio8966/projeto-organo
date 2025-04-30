@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 })
 export class LivrosComponent {
   livro = {
-    titulo: "As ondas",
-    autoria: "Virginia Woolf"
+    titulo: "o senhor dos anéis",
+    autoria: "J. R. R. Tolkien",
+    imagem:"https://m.media-amazon.com/images/I/71ZLavBjpRL._SY425_.jpg"
 }
 }
