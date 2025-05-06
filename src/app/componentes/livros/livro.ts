@@ -3,5 +3,10 @@ export interface livro{
     autoria: string;
     imagem: string;
     favorito: boolean;
-    genero: string;
+    genero: generoliterario;
+}
+export interface generoliterario{
+    id:string;
+    value: string;
+    livros: livro []
 }
